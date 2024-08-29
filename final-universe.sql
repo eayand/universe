@@ -385,6 +385,14 @@ ALTER TABLE ONLY public.exotic
 
 
 --
+-- Name: exotic exotic_pkey; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
+--
+
+ALTER TABLE ONLY public.exotic
+    ADD CONSTRAINT exotic_pkey PRIMARY KEY (exotic_id);
+
+
+--
 -- Name: galaxy galaxy_name_key; Type: CONSTRAINT; Schema: public; Owner: freecodecamp
 --
 
